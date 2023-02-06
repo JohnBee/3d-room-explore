@@ -24,3 +24,9 @@ Use Scroll wheel to zoom in/ out.
 
 ## Demo
 ![](demo/room-demo.gif)
+
+
+## Future Projects
+- Create a larger explorable 3d scene. 
+
+- Have the camera smoothly move through the scene as options are hovered from a menu. 
