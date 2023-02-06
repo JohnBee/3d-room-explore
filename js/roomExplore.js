@@ -3,6 +3,11 @@ import { GLTFLoader } from './GLTFLoader.js';
 import * as THREE from "./three.module.js";
 
 
+
+window.onload = function(){
+    const info = document.getElementById("info");
+}
+
 class RoomExplore {
 	constructor() {
 		this._init();
@@ -29,7 +34,6 @@ class RoomExplore {
 		this.scene.add(ambientLight);
 	}
 	_onMouseDown(event){
-		info = document.getElementById( 'info' );
 		info.style.display = 'none';
 	}
 	
